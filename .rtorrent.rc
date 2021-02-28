@@ -1,0 +1,15 @@
+min_peers = 40
+max_peers = 800
+
+min_peers_seed = 10
+max_peers_seed = 52
+max_uploads = 2
+
+download_rate = 30000
+upload_rate = 3
+
+
+
+directory = /home/wexzl/Видео/
+session = /home/wexzl/.session/
+schedule = watch_directory,5,5, load.start=/home/wexzl/Загрузки/*.torrent

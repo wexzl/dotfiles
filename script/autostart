@@ -1,0 +1,11 @@
+#!/bin/bash
+picom &
+polybar mybar &
+dunst &
+sxhkd &
+feh --bg-scale --randomize  ~/.config/pics/* &
+#feh --bg-scale  ~/.config/pics/15.jpg &
+xsetroot -cursor_name left_ptr &
+$HOME/.config/script/launch.sh &
+bsp-layout set tall &
+udiskie -a  -n -t &

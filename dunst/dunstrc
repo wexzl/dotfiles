@@ -1,0 +1,29 @@
+[global]
+alignment="left"
+font="JetBrains 11"
+format="<b>%s</b>: %b"
+geometry="350x5-6+30"
+horizontal_padding = 8
+separator_height = 2
+padding = 8
+horizontal_padding = 11
+frame_width = 1
+frame_color = "#000000"
+separator_color = "#000001"
+sort = yes
+stack_duplicates = true
+
+[urgency_critical]
+background="#c33027"
+foreground="#98d1ce"
+timeout=12
+
+[urgency_low]
+background="#245361"
+foreground="#98d1ce"
+timeout=6
+
+[urgency_normal]
+background="#0a0f14"
+foreground="#98d1ce"
+timeout=3

@@ -1,0 +1,78 @@
+########################################
+# Горячие клавиши программ
+########################################
+
+# Терминал
+ launch terminal
+super + Return
+   kitty
+
+# Лаунер
+super + d
+    rofi -show drun
+
+# Закрыть окно
+super + {q}
+    {bspc node -c}
+
+# Звук
+
+# Яркость эрана
+XF86MonBrightness{Down,Up}
+    xbacklight {-dec 20%,-inc 20%}
+
+# Блокировщик экрана
+super + shift + p
+    $HOME/.config/script/lock.sh &
+
+# Обновления конфигураций
+super + Escape
+    pkill -USR1 -x sxhkd; notify-send 'sxhkd' 'Обновления конфигураций'
+
+# Выход/Перезагрузка bspwm
+super + alt + {q,r}
+	bspc {quit,wm -r}; notify-send 'bspwm' 'Перезагрузка конфигураций'
+
+#######################################
+#Горячие клавиши перемешения окон
+#######################################
+
+# Переместить окно на рабочий стол № 1-9
+super + {_,shift + }{1-9,0}
+    bspc {desktop -f,node -d} '^{1-9,10}'
+
+# Переместить окно.
+super + {_,shift + }{Left,Down,Up,Right}
+	bspc node -{f,s} {west,south,north,east}
+
+# Перемещения окна в плавающем режиме
+super + ctrl {Left,Down,Up,Right}
+    bspc node -v {-20 0,0 20,0 -20,20 0}
+
+# Изменения размера окна
+super + alt + {Left,Down,Up,Right}
+  bspc node -z {left -20 0 || bspc node -z right -20 0, \
+                bottom 0 20 || bspc node -z top 0 20,\
+                top 0 -20 || bspc node -z bottom 0 -20,\
+                right 20 0 || bspc node -z left 20 0}
+
+ctrl + alt {Left,Down,Up,Right}
+    bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0}
+
+
+# Чередовать раскладку окон
+super + e
+	bsp-layout cycle --layouts  tall,monocle,wide
+
+# Режимы плавающее окно/на весь эран.
+super + s
+	    bspc node -t {floating,tiled}
+super + f
+	bspc node -t  {fullscreen,tiled}
+
+# поменять местами текущий узел и самое большое окно
+super + g
+	bspc node -s biggest.window
+
+
+
