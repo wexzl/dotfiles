@@ -26,9 +26,9 @@
 
 ### [Install]
 ```sh
-$ sudo apt-get install xorg bspwm sxhkd alsa-utils ranger git feh dunst polybar kitty zathura
-zathura-djvu neovim rofi mpv rtorrent sxiv links2 meson mesa-utils firmware-linux gcc cmake
-ninja-build gvfs iwd dhcpcd5 xclib xbacklight libnotify-bin udiskie udisks2 python3 pithon3-pip
+$ sudo apt-get install xorg bspwm sxhkd alsa-utils ranger git feh dunst polybar kitty zathura //
+zathura-djvu neovim rofi mpv rtorrent sxiv links2 meson mesa-utils firmware-linux gcc cmake //
+ninja-build gvfs iwd dhcpcd5 xclib xbacklight libnotify-bin udiskie udisks2 python3 pithon3-pip//
 php curl unrar unzip p7zip-full font-jetbrains-mono font-awesome fonts-noto
 ```
 ### Dependencies
