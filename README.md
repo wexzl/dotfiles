@@ -29,7 +29,7 @@
 #### wallpapers
 
 ### [Install]
-#### Based
+#### Based: ##### xorg
 sudo apt-get install xorg bspwm sxhkd alsa-utils
 #### Programs
 sudo apt-get install ranger git feh dunst polybar kitty zathura zathura-djvu neovim rofi mpv rtorrent sxiv links2
