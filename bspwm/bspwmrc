@@ -28,8 +28,8 @@ bspc config pointer_action2 resize_side
 bspc config pointer_action3 resize_corner
 
 
-bspc rule -a kitty desktop='^1'
-bspc rule -a Brave desktop='^2'
+bspc rule -a Kitty desktop='^1'
+bspc rule -a Brave-browser desktop='^2'
 bspc rule -a mpv state=floating
 bspc rule -a TelegramDesktop desktop='^4'
 bspc rule -a feh state=floating rectangle=800x600
