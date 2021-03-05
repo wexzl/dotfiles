@@ -19,11 +19,14 @@
 | Text Editors/Terminal font | [JetBrains](https://github.com/JetBrains/JetBrainsMono) |
 
 ### [Screenshots]
-[![hm.png](https://i.postimg.cc/DfYfhDhC/hm.png)](https://postimg.cc/mhCWNmtM)
 #### Home
+[![hm.png](https://i.postimg.cc/DfYfhDhC/hm.png)](https://postimg.cc/mhCWNmtM)
 #### Code editor
+[![edit.png](https://i.postimg.cc/fk46LYBb/edit.png)](https://postimg.cc/V0R7Z0yy)
+#### Top
+[![top.png](https://i.postimg.cc/dt2qC0df/top.png)](https://postimg.cc/bsvccpm0)
 #### wallpapers
-
+[![wall.jpg](https://i.postimg.cc/kg77vdvg/wall.jpg)](https://postimg.cc/JGdwRvFf)
 ### [Install system]
 ```sh
 $ pacman -S  xorg bspwm sxhkd alsa-utils git dunst kitty \
