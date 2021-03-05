@@ -20,8 +20,7 @@
 
 ### [Screenshots]
 #### Home
-#### Nvim
-#### rofi
+#### Code editor
 #### wallpapers
 
 ### [Install system]
