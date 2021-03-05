@@ -12,6 +12,15 @@ frame_color = "#000000"
 separator_color = "#000001"
 sort = yes
 stack_duplicates = true
+shrink = true
+browser = brave-browser
+always_run_script = true
+title = Dunst
+class = Dunst
+[brave-browser]
+appname = Brave
+timeout = 5
+imarkup = full
 
 [urgency_critical]
 background="#c33027"
@@ -27,3 +36,13 @@ timeout=6
 background="#0a0f14"
 foreground="#98d1ce"
 timeout=3
+
+[brightness]
+summary = "󰃞 Light"
+set_stack_tag = "brightness"
+
+
+
+
+
+

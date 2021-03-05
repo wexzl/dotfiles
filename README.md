@@ -5,7 +5,7 @@
 ```
 | Program                    | Name                                                    |
 | :---                       | :---                                                    |
-| OS                         | [Kali Linux](https://www.kali.org/)                     |
+| OS                         | [Archlinux](https://www.archlinux.org/)                 |
 | Window Manager             | [Bspwm](https://github.com/baskerville/bspwm)           |
 | Bar                        | [Polybar](https://github.com/jaagr/polybar)             |
 | Composit Manager           | [Picom](https://github.com/yshui/picom)                 |
@@ -26,31 +26,12 @@
 
 ### [Install system]
 ```sh
-$ sudo apt-get install xorg bspwm sxhkd alsa-utils git dunst polybar kitty \
-zathura zathura-djvu rofi mpv rtorrent sxiv links2 meson mesa-utils \
-firmware-linux gcc cmake ninja-build gvfs iwd dhcpcd5 xclip xbacklight libnotify-bin \
-udiskie python3 python3-pip php curl unrar unzip p7zip-full fonts-jetbrains-mono \
-fonts-font-awesome fonts-noto
+$ pacman -S  xorg bspwm sxhkd alsa-utils git dunst kitty \
+zathura zathura-djvu rofi mpv rtorrent sxiv meson mesa-utils \
+gcc cmake gvfs iwd dhcpcd xclip xbacklight udiskie python3 \
+php curl unrar unzip ttf-jetbrains-mono noto-fonts \
+ttf-font-awesome otf-font-awesome
 ```
-### [Dependencies]
-
-[Picom](https://github.com/yshui/picom)
 ```sh
-linbpce3-dev policykit-1-gnome libxext-dev libxcb1-dev libxcb-damage0-dev \
-libxcb-xfixes0-dev libxcb-shape0-dev libxcb-render-util0-dev libxcb-render0-dev \
-libxcb-randr0-dev libxcb-composite0-dev libxcb-image0-dev libxcb-present-dev \
-libxcb-xinerama0-dev libxcb-glx0-dev libpixman-1-dev libdbus-1-dev libconfig-dev \
-libgl1-mesa-dev libpcre2-dev libpcre3-dev libevdev-dev uthash-dev libev-dev libx11-xcb-dev
+$ yay -S bsp-layout polybar picom-ibhagwan-git ly-git
 ```
-[Bsp-layout](https://github.com/phenax/bsp-layout)
-```sh
-$ curl https://raw.githubusercontent.com/phenax/bsp-layout/master/install.sh | bash -;
-```
-
-[Bottom](https://github.com/ClementTsang/bottom)
-```sh
-$ curl -LO https://github.com/ClementTsang/bottom/releases/download/0.5.7/bottom_0.5.7_amd64.deb
-$ sudo dpkg -i bottom_0.5.7_amd64.deb
-```
-
-
