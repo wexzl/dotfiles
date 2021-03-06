@@ -63,4 +63,3 @@ alias vim='nvim'
 alias whoneeds='pacman -Qi'
 alias rmorphans='sudo pacman -Rns $(pacman -Qdtq)'
 #}}}
-
