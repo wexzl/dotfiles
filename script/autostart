@@ -9,3 +9,9 @@ xsetroot -cursor_name left_ptr &
 $HOME/.config/script/launch.sh &
 bsp-layout set tall &
 udiskie -a  -n -t &
+
+ln -sfn "$cwd"$HOME/.config/zsh/.zsh-plugins ~/.zsh-plugins
+ln -sfn "$cwd"$HOME/.config/zsh/.zprofile ~/.zprofile
+ln -sfn "$cwd"$HOME/.config/zsh/.zshenv ~/.zshenv
+ln -sfn "$cwd"$HOME/.config/zsh/.zshrc ~/.zshrc
+
