@@ -26,7 +26,6 @@ source $HOME/.zsh-plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.plugin
 source $HOME/.zsh-plugins/zsh-history-substring-search/zsh-history-substring-search.zsh
 #}}}
 
-
 #{{{ Keybindings
 # substring search plugin
 bindkey -M main '^[OA' history-substring-search-up
