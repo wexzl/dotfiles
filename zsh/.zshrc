@@ -4,7 +4,7 @@ source $HOME/.zsh-plugins/vi-mode.zsh/vi-mode.plugin.zsh
 source $HOME/.zsh-plugins/wbase.zsh/wbase.zsh
 
 # Enable fish-shell like autosuggestion
-ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=247'
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=10'
 ZSH_AUTOSUGGEST_USE_ASYNC=1
 source $HOME/.zsh-plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
